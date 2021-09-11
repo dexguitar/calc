@@ -6,10 +6,10 @@ if __name__ == '__main__':
     third = input("Input what you gonna do?: ")
 
     if third == "+":
-        addition(first, second)
+        print(addition(first, second))
     if third == "-":
-        subtraction(first, second)
+        print(subtraction(first, second))
     if third == "*":
-        multiplication(first, second)
+        print(multiplication(first, second))
     if third == "/":
-        division(first, second)
+        print(division(first, second))

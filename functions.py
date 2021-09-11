@@ -1,21 +1,21 @@
 def addition(x, y):
-    print("{:.2f}".format(float(x) + float(y)), "Yyyees!")
+    return "{:.2f}".format(float(x) + float(y))
 
 
 def subtraction(x, y):
     sub = float(x) - float(y)
     if sub < 0:
-        print("Can't subtract")
+        return "Can't subtract"
     else:
-        print("{:.2f}".format(float(x) - float(y)), "Wow")
+        return "{:.2f}".format(float(x) - float(y))
 
 
 def multiplication(x, y):
-    print("{:.2f}".format(float(x) * float(y)), "Uhhuuu!")
+    return "{:.2f}".format(float(x) * float(y))
 
 
 def division(x, y):
     if int(y) == 0:
-        print("ooo shit! can't do that!")
+        return "ooo shit! can't do that!"
     else:
-        print("{:.2f}".format(float(x) / float(y)), "Uhhuuu!")
+        return "{:.2f}".format(float(x) / float(y))
